@@ -1,20 +1,18 @@
 import React from 'react';
-
+import Card from './Card';
 import '../App.css'
 
 function TeamCards() {
   return (
-    <aside>
-      <div className="row">
-        <img src={require("../assets/logo.png")} alt="asset1"></img>
-        <hr width="90%"></hr>
-        <h2 className="navitem">Game Concept</h2>
-        <h2 className="navitem">Art Style</h2>
-        <h2 className="navitem">Game Mechanics</h2>
-        <h2 className="navitem">Meet the Team</h2>
-        <h2 className="navitem">Contact</h2>
-      </div>
-    </aside>
+    <body>
+            <header>
+                <h1 className="companyName" data-aos="fade-left" data-aos-delay="50">Blank Space Games Team</h1>
+            </header>
+            <div className="leRow"data-aos="fade-left">
+                <Card/>
+                <Card/>
+            </div>
+        </body>
   );
 }
 

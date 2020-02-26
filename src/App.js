@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import GameDesc from './components/GameDesc';
+import TeamCards from './components/TeamCards';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -17,6 +18,8 @@ function App() {
         <div className="col-9">
           <GameDesc/>
           <GameDesc/>
+          <GameDesc/>
+          <TeamCards/>
         </div>
       </div>
     </body>
