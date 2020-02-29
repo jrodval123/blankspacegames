@@ -2,14 +2,17 @@ import React from 'react';
 
 import '../App.css'
 
-function Card() {
+function Card(props) {
     return (
         <body>
-            <div className="leRow">
+            <div className="leRow" data-aos={props.anim}>
                 <div className="leCol card col-12">
-                <img src="https://www.pngkey.com/png/detail/20-201815_download-zip-archive-t-pose-waluigi-png.png" alt="asset1"></img>
-                    <p> The Arkham Knight</p>
-                    <p> Tech Lead</p>
+                <div className="container">
+                    <img src="https://cdn1.iconfinder.com/data/icons/avatar-professions/160/coder-512.png" width="100px" height="200px" alt="asset1" className="cardImg"></img>
+                </div>
+                    <p className="cardInfo"> {props.memberName}</p>
+                    <p className="cardInfo"> {props.role}</p>
+                    <p className="cardInfo"> {props.details}</p>
                 </div>
             </div>
         </body>

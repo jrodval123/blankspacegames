@@ -5,6 +5,13 @@ p{
   color: white;
   font-size: 20px;
 }
+
+.cardInfo{
+  font-family: Tomorrow;
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+}
 .body{
   padding:60px;
   /* background-color: black; */
@@ -19,7 +26,9 @@ p{
   margin: 3px;
   background-color: #484c54;
 }
-
+.cardImg{
+  object-fit: contain;
+}
 /* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
