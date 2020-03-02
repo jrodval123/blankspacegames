@@ -4,7 +4,7 @@ import '../App.css'
 
 function TeamCards() {
   return (
-    <body>
+    <body id="team">
             <header>
                 <h1 className="companyName" data-aos="fade-left" data-aos-delay="50">Blank Space Games Team</h1>
             </header>

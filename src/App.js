@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import GameDesc from './components/GameDesc';
 import TeamCards from './components/TeamCards';
 import 'aos/dist/aos.css';
+import { Link } from 'react-scroll'
 import './App.css';
 
 
@@ -11,10 +12,11 @@ function App() {
     <body className="body">
       <div className="leRow">
         <div className="col-3 col-" data-aos="fade-right">
-          <Navbar/>
+          <Navbar gc="gameconcept"></Navbar>
         </div>
         <div className="col-9">
           <GameDesc 
+              id="gameconcept"
               section="Trap Hero"
               content="Trap Hero is our attempt to build upon the foundations Guitar Hero set for music games in the mid-2000s, 
                     but to modernize it by building it on a portable platform like Unity, focusing the song selection instead on 
@@ -29,6 +31,7 @@ function App() {
               <br></br>
               <br></br>
           <GameDesc
+            id="artstyle"
             section="Art Style"
             content="The art style of Trap Hero is intended to be similar to the visuals used in current trap music, except with our own technical spin to it. A blend between glitchy forms and neon visuals will populate the game primarily in the UI and 2D assets. The 3D assets will be as complementary to those visual as possible, but are likely to be more on the basic side, both to save space and to speed production along.
             The 2D assets will take the forefront of most screens as UI and HUDs, while 3D assets will populate the scene as player representation, interactables, and background details. The 2D designs plan to stay consistent throughout the game, changing little to none, while the 3D assets evolve as the game moves forward."
@@ -36,6 +39,7 @@ function App() {
             image2="https://cdn2.vectorstock.com/i/1000x1000/48/26/glitch-arrows-pointers-direction-set-futuristic-vector-25624826.jpg"
           ></GameDesc>
           <GameDesc
+            id="gamemechanics"
             section="Game Mechanics"
             content="The game’s “story” or career mode will consist of sets of ~5 songs which can be practiced individually or played sequentially as the producer character’s “gig”. The player, once they feel adequately equipped through practicing the songs, performs all of them in a row, is graded on their performance, and is then granted “experience” in the form of notoriety after the gig.
             Each song will consist of a set of notes that must be played in rhythm with the song chosen by the player. If  the player chooses to play along with the drums, each note corresponds to some piece of a drum kit, e.g. the kick drum, snare, hi hat, etc. If the player chooses to play along with the melody, a transcribed version of the main melody in the selected song must be played along with using either the keyboard or, if a Unity library sufficient to handle this type of input exists, keys on a MIDI keyboard used in typical music production.
@@ -47,7 +51,7 @@ function App() {
           <br></br>
           <br></br>
           <br></br>
-          <TeamCards/>
+          <TeamCards id="team"/>
         </div>
       </div>
     </body>

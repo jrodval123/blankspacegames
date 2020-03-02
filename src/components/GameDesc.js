@@ -3,9 +3,9 @@ import '../App.css'
 
 function GameDesc(props) {
     return (
-        <body>
+        <body id={props.id}>
             <header>
-    <h1 className="companyName" data-aos="fade-left" data-aos-delay="50">{props.section}</h1>
+            <h1 className="companyName" data-aos="fade-left" data-aos-delay="50">{props.section}</h1>
             </header>
             <div data-aos="fade-left">
                 <p> 
