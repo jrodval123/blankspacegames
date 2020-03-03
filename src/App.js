@@ -33,7 +33,7 @@ function App() {
           <GameDesc
             id="artstyle"
             section="Art Style"
-            content="The art style of Trap Hero is intended to be similar to the visuals used in current trap music, except with our own technical spin to it. A blend between glitchy forms and neon visuals will populate the game primarily in the UI and 2D assets. The 3D assets will be as complementary to those visual as possible, but are likely to be more on the basic side, both to save space and to speed production along.
+            content="The art style of Trap Hero is intended to be similar to the visuals used in current trap music, except with our own technical spin to it. A blend between glitchy forms and neon visuals will populate the game primarily in the UI and 2D assets. The 3D assets will be as complementary to those visuals as possible, but are likely to be more on the basic side, both to save space and to speed production along.
             The 2D assets will take the forefront of most screens as UI and HUDs, while 3D assets will populate the scene as player representation, interactables, and background details. The 2D designs plan to stay consistent throughout the game, changing little to none, while the 3D assets evolve as the game moves forward."
             image1="https://cdn5.vectorstock.com/i/1000x1000/14/64/synthwave-vaporwave-retrowave-glitch-arrows-vector-26221464.jpg"
             image2="https://cdn2.vectorstock.com/i/1000x1000/48/26/glitch-arrows-pointers-direction-set-futuristic-vector-25624826.jpg"
